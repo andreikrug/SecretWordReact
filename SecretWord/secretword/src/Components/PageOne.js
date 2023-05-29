@@ -1,9 +1,12 @@
-import React from 'react'
+import React from 'react';
+import './PageOne.css';
 
-const PageOne = () => {
+const PageOne = ({change}) => {
   return (
-    <div>
-        <h1>Essa é a página 1</h1>
+    <div className='principal'>
+        <h1>Secret Word, o Jogo das palavras</h1>
+        <h2>Clique no botão para jogar</h2>
+        <button className='b1' onClick={change}>Jogar</button>
     </div>
   )
 }

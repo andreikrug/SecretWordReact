@@ -1,0 +1,15 @@
+.principal{
+    width: 100%;
+    height: 100%;
+    margin-top: 150px;
+    text-align: center;
+}
+
+.b1{
+    width: 200px;
+    height: 50px;
+    border-radius: 20px;
+    background-image: linear-gradient(to right, grey, orange);
+    text-align: center;
+    margin: auto;
+}
